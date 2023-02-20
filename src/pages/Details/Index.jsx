@@ -50,7 +50,7 @@ export function Details() {
 
         </Section>
 
-        <Button title="Entrar"  />
+        <Button title="Voltar"  />
 
       </Content>
     </main>
@@ -60,3 +60,4 @@ export function Details() {
     
   );
 }
+
