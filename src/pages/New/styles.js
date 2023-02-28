@@ -10,7 +10,22 @@ export const Container = styled.div`
   "header"
   "content"
   ;
+
+  >main{
+    grid-area: content ;
+    overflow-y: auto;
+  }
+
+
+  .tags{
+  display:flex;
+  justify-content: space-between ;
+
+  /* Para qunado ter mais linhas coloca-las na de baixo */
+  flex-wrap: wrap ; 
+}
 `
+
 
 export const Form = styled.form`
 max-width: 550px ;
